@@ -13,7 +13,7 @@ const Banner = () => {
                             initial={{ opacity: 0, x: -100, rotate: -180 }}
                             animate={{ opacity: 1, x: 0, rotate: 0 }}
                             transition={{ duration: 0.8, delay: 0.2, ease: "easeInOut" }}
-                            src={Headphone4} alt="" className='w-[300px] md:w-[400px] justify-center' />
+                            src={Headphone4} alt="" className='w-[300px] md:w-[400px] justify-center mx-auto' />
                     </div>
                     <div className='flex flex-col justify-center'>
                         <div className='text-center md:text-left space-y-4 lg:max-w-[450px]'>
